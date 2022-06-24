@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Task manager</title>
+  </head>
+  <body>
+    <div class="container">
+      <br /><br />
+      <div class="input-group mb-3">
+        <input
+          id="input"
+          type="text"
+          class="form-control"
+          placeholder="Just Do it"
+          aria-describedby="button-addon4"
+        />
+        <button
+          onclick="addItem()"
+          class="btn btn-primary"
+          type="button"
+          id="button-addon2"
+        >
+          Add Task
+        </button>
+      </div>
+      <div id="result"></div>
+      <script src="./index.js"></script>
+    </div>
+  </body>
+</html>
